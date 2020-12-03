@@ -40,6 +40,7 @@ To integration superset with existing keycloak, We need to provide keycloak deta
     KEYCLOAK_REALM=<KEYCLOAK_REALM>
 
 ADMIN_ROLE : will have complete access to superset.(Admin role of superset)
+
 PUBLIC_ROLE: will have access for viewing the dashboard(Alpha role of superset)
 
 ***Note**: While configuring keycloak relam please make sure that userInfo API of keycloak realm should return role of the users as well.*
